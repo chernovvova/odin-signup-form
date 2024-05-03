@@ -64,8 +64,15 @@
 }
 
 .field-item > input {
-    height: 20px;
+    height: 25px;
     width: 200px;
+    border: #E5E7EB solid 1px;
+    border-radius: 4px;
+}
+
+.field-item > input:focus {
+    border: solid 3px #596D48;
+    outline: none;
 }
 
 .button-container > button {
