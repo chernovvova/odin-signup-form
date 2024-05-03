@@ -8,9 +8,23 @@
     flex-direction: row;
 }
 
-.background-image > img{
-    width:40vw;
+.background-image{
+    background-image: url(assets/images/photo-1455218873509-8097305ee378.avif);
+    background-size: 60vw 100vh;
+    width:60vw;
     height: 100vh;
+    font-size: 46px;
+    color: white;
+}
+
+.background-image div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.5rem;
+    margin-top: 20vh;
+    padding: 16px 0;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .container {
