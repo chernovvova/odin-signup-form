@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.background-image > img{
+    width:40vw;
+    height: 100vh;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
