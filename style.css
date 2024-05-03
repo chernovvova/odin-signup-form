@@ -63,7 +63,7 @@
     color:rgb(132, 132, 130);
 }
 
-.field-item > input {
+.field-item input {
     height: 25px;
     width: 200px;
     border: #E5E7EB solid 1px;
@@ -99,4 +99,9 @@
 
 .link-container > a {
     color: #596D48;
+}
+
+.error {
+    border: red solid 1px;
+    outline: none;
 }
